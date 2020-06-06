@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/without",
-  "description": "",
+  "description": "Clone a JavaScript Object with a subset of it's properties",
   "version": "0.0.0",
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -17,10 +17,29 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "object",
+    "properties",
+    "remove",
+    "removed",
+    "without",
+    "subset",
+    "extract",
+    "clone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/without.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianwalter/without/issues"
+  },
+  "homepage": "https://github.com/ianwalter/without#readme",
   "devDependencies": {
     "@ianwalter/bff": "^9.8.2",
     "@ianwalter/dist": "^6.0.0",
     "@ianwalter/eslint-config": "^5.0.0",
+    "@ianwalter/release": "^5.0.0",
     "@ianwalter/renovate-config": "^1.3.0"
   },
   "dependencies": {
