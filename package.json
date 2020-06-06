@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/extract",
-  "description": "Clone a JavaScript Object with a subset of it's properties",
+  "description": "Extract a subset of a JavaScript Object by including or excluding properties",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE",
   "author": {

@@ -1,5 +1,5 @@
 # @ianwalter/extract
-> Clone a JavaScript Object with a subset of it's properties
+> Extract a subset of a JavaScript Object by including or excluding properties
 
 [![npm page][npmImage]][npmUrl]
 [![CI][ciImage]][ciUrl]
