@@ -1,5 +1,5 @@
 {
-  "name": "@ianwalter/without",
+  "name": "@ianwalter/extract",
   "description": "Clone a JavaScript Object with a subset of it's properties",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE",
@@ -12,29 +12,30 @@
     "pretest": "dist",
     "test": "bff"
   },
-  "main": "dist/without.js",
-  "module": "dist/without.m.js",
+  "main": "dist/extract.js",
+  "module": "dist/extract.m.js",
   "files": [
     "dist"
   ],
   "keywords": [
     "object",
     "properties",
+    "extract",
+    "subset",
+    "with",
+    "without",
     "remove",
     "removed",
-    "without",
-    "subset",
-    "extract",
     "clone"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianwalter/without.git"
+    "url": "git+https://github.com/ianwalter/extract.git"
   },
   "bugs": {
-    "url": "https://github.com/ianwalter/without/issues"
+    "url": "https://github.com/ianwalter/extract/issues"
   },
-  "homepage": "https://github.com/ianwalter/without#readme",
+  "homepage": "https://github.com/ianwalter/extract#readme",
   "devDependencies": {
     "@ianwalter/bff": "^9.8.2",
     "@ianwalter/dist": "^6.0.0",
