@@ -44,7 +44,7 @@
     "@ianwalter/renovate-config": "^1.3.0"
   },
   "dependencies": {
-    "@ianwalter/dot": "^0.0.1"
+    "@ianwalter/dot": "^0.1.0"
   },
   "eslintConfig": {
     "root": true,
