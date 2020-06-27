@@ -36,15 +36,15 @@
     "url": "https://github.com/ianwalter/extract/issues"
   },
   "homepage": "https://github.com/ianwalter/extract#readme",
+  "dependencies": {
+    "@ianwalter/dot": "^1.0.3"
+  },
   "devDependencies": {
     "@ianwalter/bff": "^9.8.2",
     "@ianwalter/dist": "^6.0.0",
     "@ianwalter/eslint-config": "^5.0.0",
     "@ianwalter/release": "^5.0.0",
     "@ianwalter/renovate-config": "^1.3.0"
-  },
-  "dependencies": {
-    "@ianwalter/dot": "^0.0.1"
   },
   "eslintConfig": {
     "root": true,

@@ -22,6 +22,12 @@ test('excluding multiple', t => {
     .toEqual({ name: false, chain: { qty: 0 } })
 })
 
+test('excluding falsy source', t => {
+  t.expect(excluding(undefined, 'password')).toEqual(undefined)
+  t.expect(excluding(null, 'phone')).toEqual(null)
+  t.expect(excluding(false, 'address')).toEqual(false)
+})
+
 test('including top-level properties', t => {
   t
     .expect(including(
