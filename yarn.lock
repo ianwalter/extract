@@ -328,10 +328,10 @@
     rollup-plugin-node-resolve "^5.2.0"
     rollup-plugin-terser "^5.2.0"
 
-"@ianwalter/dot@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/dot/-/dot-0.1.0.tgz#d83340263a9b16bfbe7ead9dad2108ed52f3cfbb"
-  integrity sha512-CZDynwlCxlx+2KxAnOeG8R1kOADyfZsmRAslHl8BLa1Uyg5zmNFOtL0rmTUgtzXLZHhf6OD1AzQkQOMmNIqMJw==
+"@ianwalter/dot@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@ianwalter/dot/-/dot-1.0.3.tgz#2d586710573526e07d65c499a3c86fe4b3d7a849"
+  integrity sha512-LZvhyVQn5BM0/5lANNz3Nh9sTGD5JvZdEmkg5UsN+bQXpRUI9yokw+HjDKjTAnRdpF93pBhfLXAIPebRA/RBBA==
 
 "@ianwalter/eslint-config@^5.1.0":
   version "5.1.0"
