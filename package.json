@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/ianwalter/extract#readme",
   "dependencies": {
-    "@ianwalter/dot": "^1.0.4"
+    "@ianwalter/dot": "^1.0.5"
   },
   "devDependencies": {
     "@ianwalter/bff": "^9.12.1",
