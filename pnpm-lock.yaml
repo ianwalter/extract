@@ -2,7 +2,7 @@ dependencies:
   '@ianwalter/dot': 1.0.5
 devDependencies:
   '@changesets/cli': 2.12.0
-  '@ianwalter/bff': 9.13.0
+  '@ianwalter/bff': 10.0.1
   '@ianwalter/dist': 6.0.0
   '@ianwalter/eslint-config': 6.2.0
   '@ianwalter/renovate-config': 1.4.2
@@ -382,7 +382,7 @@ packages:
   /@generates/cli/0.0.9:
     dependencies:
       '@generates/logger': 0.0.9
-      '@generates/merger': 0.1.1
+      '@generates/merger': 0.1.2
       '@ianwalter/dot': 1.0.5
       camelcase: 6.2.0
       common-tags: 1.8.0
@@ -395,7 +395,7 @@ packages:
   /@generates/logger/0.0.9:
     dependencies:
       '@generates/cli': 0.0.9
-      '@generates/merger': 0.1.1
+      '@generates/merger': 0.1.2
       '@ianwalter/chromafi': 1.0.1
       '@ianwalter/clone': 6.0.1
       '@ianwalter/cloneable': 2.0.0
@@ -410,18 +410,17 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-SzWqUUO2ugHSVFW0UoH1dovSCIsP8BHNx1iRqQ/ZnsUDh1t0logrVH9nqWFpR10ey629uIDPq0Ut/43G3P8tZQ==
-  /@generates/merger/0.1.1:
+  /@generates/merger/0.1.2:
     dev: true
     resolution:
-      integrity: sha512-jlO57SAsyw3sI7fpgHLzx7CdpklW4hciHoILR0lylj0WlMBD1PpRfULeqfiWjUV5NxGuhrxQqZ4vrPteKEZKNg==
-  /@ianwalter/bff/9.13.0:
+      integrity: sha512-t1Mi5mtIwCbcKxqZ5v+7Ds570gwTfo5vAXr0Q3naaMxfnCc6CychGHh/GyF6nK3qYIxh9BJhThVTiCfN+ukMuQ==
+  /@ianwalter/bff/10.0.1:
     dependencies:
       '@generates/logger': 0.0.9
-      '@generates/merger': 0.1.1
+      '@generates/merger': 0.1.2
       '@ianwalter/cli': 4.1.0
       '@ianwalter/clone': 6.0.1
       '@ianwalter/cloneable': 2.0.0
-      '@ianwalter/dist': 6.0.0
       '@ianwalter/sleep': 0.0.1
       '@ianwalter/subpub': 3.0.0
       '@ianwalter/timer': 2.0.2
@@ -434,13 +433,12 @@ packages:
       jest-snapshot: 26.6.2
       junit-report-builder: 2.1.0
       p-series: 2.1.0
-      require-from-string: 2.0.2
       tiny-glob: 0.2.8
       workerpool: 6.0.3
     dev: true
     hasBin: true
     resolution:
-      integrity: sha512-wG2aj8Rl11/5pjjA3RE/LC0goERVmA8mrKUrxk0iCWbkhe/cKfmsY2lOFZQziNQ3IWdURZJdd/Eomq2ntyYHlQ==
+      integrity: sha512-XYwJSBgaFyIzqx9o7gf1s/LcEL/iUhIWwwPqAAjFbPrBf/N86c6kFksZWE6KlTxGrxNgWpu4bJPD7x0lztx8oQ==
   /@ianwalter/chromafi/1.0.1:
     dependencies:
       ansi-mark: 1.0.4
@@ -4804,7 +4802,7 @@ packages:
       integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
 specifiers:
   '@changesets/cli': ^2.12.0
-  '@ianwalter/bff': ^9.13.0
+  '@ianwalter/bff': ^10.0.1
   '@ianwalter/dist': ^6.0.0
   '@ianwalter/dot': ^1.0.5
   '@ianwalter/eslint-config': ^6.2.0
